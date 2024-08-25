@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.Best_sell_View_all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.Best_view_all{
+    padding: 10px 30px 10px 30px;
+    background-color: #DB4444;
+    border-radius: 5px;
+    color: white;
+}
+
+
+.sellingProductList{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    overflow: scroll;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.sellingProductList::-webkit-scrollbar {
+    display: none;
+  }

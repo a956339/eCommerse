@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Navbar {
+    height: 60px;
+    padding: 0px 50px 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Nav-link {
+    margin-right: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+.right-header {
+    width: 28%;
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+    gap: 15px;
+}
+
+.header-search-input {
+    position: relative;
+}
+
+.header-search-input input {
+    padding: 8px;
+    width: 100%;
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+    right: 0;
+    top: 10px;
+
+
+}
+
+.profilelogo{
+    height: 40px;
+    width: 40px;
+    border: 1px solid red;
+    border-radius: 50%;
+    position: relative;
+}
+
+.profilelogo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+.profileDropdown{
+    position: absolute;
+   padding: 15px;
+    background-color:#f2caca;
+    left: -170px;
+  width: 30vh;
+  border-radius: 5px;
+ 
+}
+
+
+.listName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.listName:hover{
+    background-color: red;
+    border-radius: 10px;
+}

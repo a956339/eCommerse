@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.days {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.darkLine {
+    height: 25px;
+    width: 10px;
+    background-color: #DB4444;
+}
+
+.days p {
+    font-size: 12px;
+    font-weight: 600;
+    color: #DB4444;
+}
+
+.saleType {
+    margin-top: 15px;
+}
+
+.FlashSlider {
+    margin-top: 10px;
+padding: 10px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+
+.fa-star {
+    font-size: 14px;
+}
+.Products{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.Products img {
+    width: 30vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.Product_Title {
+    font-size: 13px;
+    font-weight: 500;
+
+}
+
+.Product_Price {
+    color: #DB4444;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.image {
+    position: relative;
+
+}
+
+.AddCartButton {
+    padding: 5px;
+    background-color: #DB4444;
+    font-size: 13px;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+
+
+.FlashSlider{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.FlashSlider{
+    overflow: scroll;
+
+}
+.FlashSlider::-webkit-scrollbar {
+    display: none;
+  }
+
+  .FlashAllProduct{
+    padding: 10px;
+    background-color: #DB4444;
+    font-size: 13px;
+    border-radius: 5px;
+}
+.FlashAllProductbtn{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

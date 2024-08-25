@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Services_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    gap: 40px;
+}
+
+.service_card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+   
+}
+
+.service_card img{
+border-radius: 50%;
+width: 40px;
+height: 40px;
+/* padding: 15px; */
+border: 10px solid #C1C0C1;
+}
